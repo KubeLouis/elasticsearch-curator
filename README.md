@@ -43,7 +43,7 @@ pip install -U elasticsearch-curator
 因为Elasticsearch Curator的主要面对对象是Elasticsearch的索引和快照，且非容器化方案下一般会配合Crontab去实现具体期望，那么在Kubernetes环境下，用CronJob是操作最为合适
 
 ```bash
-git clone http://git.code.oa.com/kubelouislu/elasticsearch-curator.git
+git clone https://github.com/KubeLouis/elasticsearch-curator.git
 
 cd elasticsearch-curator
 
